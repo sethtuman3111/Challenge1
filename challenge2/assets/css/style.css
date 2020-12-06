@@ -1,0 +1,127 @@
+/* HEADER / STYLES START */
+
+header {
+  padding: 20px 35px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  background-image: url("../images/Pacifica Surf Img1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+.header1 {
+  text-align: right;
+  color: blue
+}
+
+/* Headter Styles End  */
+
+.service-grid-container1 {
+  display: grid;
+  grid-template-columns: 300px 900px;
+  grid-template-rows: 100px; 
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+}
+
+.service-grid-container2 {
+  display: grid;
+  grid-template-columns: 300px 600px 400px;
+  grid-template-rows: 200px;
+}
+
+.service-grid-container3 {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 100px 100px;
+}
+
+
+.service-grid-item {
+  /* width: 200px;
+  height: 50px; */
+  background-color: white;
+  border: solid;
+  color: black;
+}
+
+.service-grid-item-About-Me {
+  grid-column: 1 / span 1;
+  font-size: 40px;
+  font-family: Arial;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+  .service-grid-item-Three {
+
+  grid-column: 1 / span 1;
+  font-size: 40px;
+  font-family: Arial;
+  padding: 40px 0;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  text-align: center;
+  }
+
+}
+
+  .service-grid-item-Two {
+    justify-items: start;
+  }
+
+  .service-grid-item-Four {
+    padding-left: 20px;
+    padding: 60px 15px;
+    border-color: blue;
+    background-image: url("../images/Pacifica Surf Img2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    opacity: 1;
+
+  }
+
+  .service-grid-item-Four:hover   {
+    opacity:.5;
+
+  }
+
+  .service-grid-item-Five {
+    padding: 5px;
+    border-color: blue;
+    background-image: url("../images/Mavericks\ Waves1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    opacity: 1;
+
+  }
+
+  .service-grid-item-Five:hover   {
+    opacity:.5;
+
+  }
+
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fffeee;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 0 10%; */
